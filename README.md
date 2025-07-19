@@ -1,27 +1,46 @@
-# Video Meeting
+# Video Meeting App
 
-Google Meet / Zoom clone in a few lines of code.
+A simple video conferencing app built with React and Node.js. Join video calls, chat in real-time, and share your screen with others.
 
-Video Meeting is a video conference website that lets you stay in touch with all your friends.
+## Features
 
-Developed with ReactJS, Node.js, SocketIO.
+- Video calling with multiple participants
+- Real-time chat messaging
+- Screen sharing
+- Live user count
+- Join/leave notifications
+- No registration required
 
-![Website](https://i.imgur.com/HhZD01o.jpg)
+## Quick Setup
 
-### Website
-Try Video Meeting here [video.sebastienbiollo.com](https://video.sebastienbiollo.com)
+1. **Install dependencies**
+   ```bash
+   npm install --legacy-peer-deps
+   ```
 
+2. **Run the app**
+   ```bash
+   npm run dev
+   ```
 
-### Features
-- Is 100% free and open-source
-- No account needed
-- Unlimited users
-- Messaging chat and video streaming in real-time
-- Screen sharing to present documents, slides, and more
-- Everyting is peer-to-peer thanks to webrtc
+3. **Open browser**
+   ```
+   http://localhost:8000
+   ```
 
+## Tech Stack
 
-### Local setup
+- **Frontend**: React, Material-UI, WebRTC
+- **Backend**: Node.js, Express, Socket.IO
 
-1. `yarn install`
-2. `yarn dev`
+## How to Use
+
+1. Enter your username and connect
+2. Share the room URL with others
+3. Use the controls to manage video, audio, and chat
+
+That's it! Simple video conferencing in your browser.
+
+---
+
+Built with React + Node.js + WebRTC
